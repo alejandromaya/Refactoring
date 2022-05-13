@@ -4,18 +4,23 @@
   "description": "",
   "main": "app.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandromaya/Refactoring.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandromaya/Refactoring/issues"
+  },
+  "homepage": "https://github.com/alejandromaya/Refactoring#readme",
   "devDependencies": {
     "jest": "^28.1.0"
-  },
-  "dependencies": {
-    "express": "^4.18.1"
   }
 }
